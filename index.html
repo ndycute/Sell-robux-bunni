@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8fd1ff">
+  <meta name="description" content="BUNNI ROBUX — shop Robux phong cách xanh trời, mây trắng dễ thương.">
+  <title>BUNNI ROBUX — Mây xanh, Robux xinh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="BUNNI ROBUX - Trang chủ"><span class="brand-mark">☁</span><span id="shopName">BUNNI ROBUX</span></a>
+      <nav class="nav-links" aria-label="Điều hướng">
+        <a href="#packages">Gói Robux</a><a href="#lucky">Vòng quay</a><a href="#contact">Liên hệ</a>
+      </nav>
+      <button class="admin-open" id="adminOpen" type="button">✎ Chỉnh sửa</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="sky-cloud cloud-a"></div><div class="sky-cloud cloud-b"></div><div class="sky-cloud cloud-c"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="pill"><span class="sparkle">✦</span> Thế giới Robux dễ thương</span>
+          <h1 id="heroTitle">BUNNI <span>ROBUX</span></h1>
+          <p id="heroDescription">Bay lên những đám mây xanh và khám phá các gói Robux cùng thật nhiều điều dễ thương nhé!</p>
+          <div class="hero-actions"><a class="button button-blue" href="#packages">Khám phá gói Robux <span>→</span></a><a class="button button-white" href="#lucky">🎁 Vòng quay may mắn</a></div>
+          <div class="trust-row"><span>☁️ Giao diện thân thiện</span><span>💙 Hỗ trợ tận tình</span></div>
+        </div>
+        <div class="hero-art" aria-label="Hình minh họa thỏ mây dễ thương">
+          <div class="halo"></div><div class="art-cloud art-cloud-one"></div><div class="art-cloud art-cloud-two"></div>
+          <div class="bunny-card" id="bannerCard">
+            <img id="bannerImage" alt="Ảnh banner BUNNI ROBUX" hidden>
+            <div class="bunny-illustration" id="bunnyIllustration" aria-hidden="true"><div class="bunny-ear ear-left"></div><div class="bunny-ear ear-right"></div><div class="bunny-face"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="cheek cheek-left"></i><i class="cheek cheek-right"></i><i class="mouth"></i></div><div class="flower flower-left">✿</div><div class="flower flower-right">✿</div></div>
+            <div class="art-caption"><span>૮ ˶ᵔ ᵕ ᵔ˶ ა</span><small>một chút đáng yêu mỗi ngày</small></div>
+          </div>
+          <span class="float-star star-one">✦</span><span class="float-star star-two">✧</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section package-section" id="packages">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow">BUNNI SHOP</span><h2>Chọn gói Robux yêu thích</h2><p>Các gói mẫu có thể chỉnh sửa theo thông tin shop của bạn.</p></div>
+        <div class="package-grid" id="packageGrid"></div>
+        <div class="topup-callout"><div><span class="callout-cloud">☁</span><strong>Muốn được tư vấn chọn gói?</strong><p>Liên hệ shop qua Zalo để được hỗ trợ nhé.</p></div><button class="button button-blue topup-trigger" type="button">Nạp thẻ / Liên hệ Zalo</button></div>
+      </div>
+    </section>
+
+    <section class="section lucky-section" id="lucky">
+      <div class="container lucky-grid">
+        <div class="section-heading align-left"><span class="eyebrow">LITTLE SURPRISE</span><h2>Vòng quay may mắn</h2><p>Ghé chơi một chút trong thế giới mây xanh. Vòng quay này chỉ mang tính giải trí, kết quả không phải ưu đãi thanh toán.</p><button class="button button-blue" id="spinButton" type="button">Quay thử nào! ✨</button><p class="spin-result" id="spinResult" aria-live="polite">Bạn sẽ nhận được điều bất ngờ gì nhỉ?</p></div>
+        <div class="wheel-wrap"><div class="wheel-pointer">▼</div><div class="wheel" id="wheel"><span class="wheel-label label-one">☁️</span><span class="wheel-label label-two">⭐</span><span class="wheel-label label-three">🎀</span><span class="wheel-label label-four">💙</span><span class="wheel-label label-five">🌈</span><span class="wheel-label label-six">🐰</span><div class="wheel-center">BUNNI</div></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-card"><div><span class="eyebrow">ALWAYS HERE FOR YOU</span><h2>Chúng mình ở đây để hỗ trợ bạn</h2><p>Bấm nút bên dưới để liên hệ tư vấn qua Zalo.</p></div><button class="button button-white topup-trigger" type="button">Liên hệ Zalo 0971662344 ↗</button></div></section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">☁</span><span id="footerName">BUNNI ROBUX</span></a><span>Thiết kế với thật nhiều mây và yêu thương ☁️</span></div></footer>
+
+  <div class="modal-backdrop" id="zaloModal" hidden>
+    <section class="zalo-modal" role="dialog" aria-modal="true" aria-labelledby="zaloTitle">
+      <button class="modal-close" id="zaloClose" type="button" aria-label="Đóng">×</button>
+      <div class="modal-cloud">☁️</div><span class="eyebrow">BUNNI ROBUX</span>
+      <h2 id="zaloTitle">LIÊN HỆ ZALO<br><strong>0971662344</strong></h2>
+      <p>ĐỂ ĐƯỢC TƯ VẤN MUA GÓI</p>
+      <a class="button button-blue zalo-link" href="https://zalo.me/0971662344" target="_blank" rel="noopener noreferrer">Mở Zalo để nhắn tin ↗</a>
+      <small>Trang này không nhận hoặc xử lý mã thẻ. Vui lòng chỉ trao đổi qua kênh liên hệ chính thức.</small>
+    </section>
+  </div>
+
+  <aside class="admin-panel" id="adminPanel" hidden aria-label="Bảng chỉnh sửa nội dung">
+    <div class="admin-head"><strong>Chỉnh sửa giao diện</strong><button id="adminClose" type="button" aria-label="Đóng">×</button></div>
+    <p class="admin-note">Bản demo lưu nội dung trong trình duyệt này. Không nhập thông tin bí mật.</p>
+    <label>Tên shop<input id="editName" type="text"></label>
+    <label>Tiêu đề<input id="editTitle" type="text"></label>
+    <label>Mô tả<textarea id="editDescription" rows="3"></textarea></label>
+    <label>Ảnh banner (tùy chọn)<input id="editBanner" type="file" accept="image/*"></label>
+    <button class="button button-blue" id="saveAdmin" type="button">Lưu trên thiết bị này</button>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
